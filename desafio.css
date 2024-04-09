@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('fonts/Passion_One,Sriracha/Passion_One/PassionOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Estrofe';
+    src: url('fonts/Passion_One,Sriracha/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+}
+
+main {
+    font-family: 'Estrofe';
+    font-size: 70px;
+}
+
+/* ------------------------- CABEÇALHO ---------------- */
+header {
+    height: 190px;
+    padding-top: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Titulo';
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+
+header > p {
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------ ESTROFE 1 -------------------- */
+
+.estrofe1 {
+    margin: 50px;
+    width: 800px;
+}
+
+/* ------------------ ESTROFE 2 -------------------- */
+
+.estrofe2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    background: yellow url('imgs/pacote-d012/imagens/background001.jpg') no-repeat fixed center center;
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+.estrofe2 > p {
+    background-color: rgba(0, 0, 0, 0.400);
+    width: 815px;
+    color: white;
+    margin: 50px;
+    padding: 20px 0px;
+}
+
+/* ------------------ ESTROFE 3 -------------------- */
+
+.estrofe3 {
+    margin: 50px;
+}
+
+/* ------------------ ESTROFE 4 -------------------- */
+
+.estrofe4 {
+    margin: 50px;
+}
+
+/* ------------------ ESTROFE 5 -------------------- */
+
+.estrofe5 {
+    background: beige url('imgs/pacote-d012/imagens/background002.jpg') no-repeat fixed center center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+.estrofe5 > p {
+    background-color: rgba(0, 0, 0, 0.400);
+    width: 830px;
+    color: white;
+    margin: 50px;
+    padding: 20px 0px;
+}
+
+/* ------------------ ESTROFE 6 -------------------- */
+
+.estrofe6 {
+    margin: 50px;
+}
+
+/* ------------------ ESTROFE 7 -------------------- */
+
+.estrofe7 {
+    margin: 50px;
+}
+
+/* ------------------ RODAPÉ -------------------- */
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
